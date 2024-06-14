@@ -12,8 +12,14 @@ Button: Button confirmarButton = new Button("Confirmar"); crea un botón para co
 Labels:
 
 Label fechaLabel = new Label("Selecciona una fecha:"); guía al usuario para seleccionar una fecha.
+
 Label colorLabel = new Label("Selecciona un color:"); guía al usuario para seleccionar un color.
+
 Label titulo = new Label("Controles DatePicker y ColorPicker"); es un título descriptivo.
+
 VBox Layout: VBox contenedor = new VBox(); organiza los controles verticalmente y centra los elementos dentro de este.
+
 Acción al Presionar el Botón:
+
 Al presionar el botón confirmarButton, se muestra la fecha y el color seleccionados en la consola y en la interfaz a través de un Label adicional.
+
